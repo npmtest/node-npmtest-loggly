@@ -1,6 +1,6 @@
 # npmtest-loggly
 
-#### test coverage for  [loggly (v1.1.1)](https://github.com/winstonjs/node-loggly#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-loggly.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-loggly) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-loggly.svg)](https://travis-ci.org/npmtest/node-npmtest-loggly)
+#### basic test coverage for  [loggly (v1.1.1)](https://github.com/winstonjs/node-loggly#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-loggly.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-loggly) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-loggly.svg)](https://travis-ci.org/npmtest/node-npmtest-loggly)
 
 #### A client implementation for Loggly cloud Logging-as-a-Service API
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-loggly/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-loggly/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-loggly/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-loggly/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-loggly/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-loggly/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-loggly/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-loggly/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-loggly/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-loggly/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-loggly/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-loggly/build/coverage.html/index.html)
 
@@ -87,7 +87,8 @@
         "pretest": "common lib/**/*.js lib/*.js test/helpers.js",
         "test": "vows test/*-test.js --spec"
     },
-    "version": "1.1.1"
+    "version": "1.1.1",
+    "bin": {}
 }
 ```
 
